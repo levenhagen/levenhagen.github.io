@@ -1,0 +1,14 @@
+.menu-button {
+  position: fixed;
+  top: 3vh;
+  left: 3vh;
+}
+
+.tap-target {
+  background-color: grey;
+}
+
+.tap-target {
+  width: 615px;
+  height: 615px;
+}

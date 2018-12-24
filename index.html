@@ -13,20 +13,21 @@
     <!-- mobile home screen -->
     <link rel="manifest" href="manifest.json" />
 
-    <!-- custom styling -->
-    <link rel="stylesheet" href="index.css" />
-
-    <!-- Google Icon Font -->
+    <!-- Import Google Icon Font -->
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-
-    <!-- Compiled and minified materialize CSS -->
+    <!-- Import materialize.css -->
     <link
+      type="text/css"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+      href="css/materialize.min.css"
+      media="screen,projection"
     />
+
+    <!-- custom styling -->
+    <link rel="stylesheet" href="css/index.css" />
 
     <!-- Let browser know website is optimized for mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -63,27 +64,39 @@
       <li><a class="subheader">Subheader</a></li>
       <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
     </ul>
-    <a
-      data-target="slide-out"
-      class="btn-floating sidenav-trigger nav-button black"
-    >
-      <i class="small material-icons">menu</i>
-    </a>
-    <div class="container"><h1>wassup yall young fellas</h1></div>
+    <div class="menu-button">
+      <a
+        id="menu"
+        data-target="slide-out"
+        class="btn-floating btn sidenav-trigger nav-button black"
+      >
+        <i class="small material-icons">menu</i>
+      </a>
+    </div>
+
+    <!-- Tap Target Structure -->
+    <div class="tap-target" data-target="menu">
+      <div class="tap-target-content">
+        <h5>Explore!</h5>
+        <p>Click here for more information...</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1>wassup yall young fellas</h1>
+      <br />
+      <img
+        class="circle responsive-img"
+        style="width: 50%;"
+        src="https://scontent.fgig4-1.fna.fbcdn.net/v/t34.18173-12/17198770_1266502326737811_580660296_n.jpg?_nc_cat=107&_nc_ht=scontent.fgig4-1.fna&oh=e98d2c18d2cbfde69ae596d2a2399024&oe=5C2233ED"
+      />
+    </div>
 
     <!-- ======== JavaScript at end of body for optimized loading ======== -->
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-    <!-- jQuery -->
-    <script
-      src="https://code.jquery.com/jquery-3.1.1.min.js"
-      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-      crossorigin="anonymous"
-    ></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- JavaScript at end of body for optimized loading -->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
     <!-- custom scripts -->
-    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
   </body>
 </html>
