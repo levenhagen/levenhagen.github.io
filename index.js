@@ -1,5 +1,4 @@
-$(document).ready(function() {
-  $(".sidebarbutton").click(function() {
-    $(".ui.sidebar").sidebar("toggle");
-  });
+document.addEventListener("DOMContentLoaded", function() {
+  var elems = document.querySelectorAll(".sidenav");
+  var instances = M.Sidenav.init(elems, null);
 });
