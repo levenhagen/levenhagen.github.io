@@ -67,22 +67,22 @@
         </div>
       </li>
       <li>
-        <a href="#!" class="waves-effect"
+        <a href="#!" class="waves-effect" onclick="home()"
           ><i class="material-icons">person</i>Home</a
         >
       </li>
       <li>
-        <a href="#!" class="waves-effect"
+        <a href="#!" class="waves-effect" onclick="about()"
           ><i class="material-icons">flash_on</i>Who Am I?</a
         >
       </li>
       <li>
-        <a href="#!" class="waves-effect"
+        <a href="#!" class="waves-effect" onclick="portfolio()"
           ><i class="material-icons">laptop_chromebook</i>Portfolio</a
         >
       </li>
       <li><div class="divider"></div></li>
-      <li><a class="subheader">Contact</a></li>
+      <li><a class="subheader">Feel free to contact me :)</a></li>
       <li>
         <a href="https://facebook.com/bbernardolevenhagen" class="waves-effect"
           ><i class="fab fa-facebook-square"></i>Facebook</a
@@ -98,6 +98,17 @@
           ><i class="fab fa-linkedin"></i>LinkedIn</a
         >
       </li>
+      <div class="versicle-quote">
+        <p class="versicle"><strong>Proverbs 3:5-6</strong></p>
+        <p class="versicle">
+          5. Trust in the Lord with all your heart and lean not on your own
+        </p>
+        <p class="versicle">understanding.</p>
+        <p class="versicle">
+          6. in all your ways submit to him, and he will make your paths
+        </p>
+        <p class="versicle">straight.</p>
+      </div>
     </ul>
 
     <div class="menu-button">
@@ -120,27 +131,49 @@
 
     <div class="container ">
       <div class="row">
-        <div class="col s12 m12 l12 title-content">
-          <h2 style="margin-top:0px; margin-bottom: 5%">Bernardo Levenhagen</h2>
+        <div class="col s12 m12 l12">
+          <h2
+            class="right-align show-on-small hide-on-med-and-up"
+            style="margin-top:0px;"
+          >
+            Bernardo Levenhagen
+          </h2>
+          <h2
+            class="center-align hide-on-small-only show-on-medium-and-up"
+            style="margin-top:0px;"
+          >
+            Bernardo Levenhagen
+          </h2>
         </div>
-        <div id="photo" class="col s12 m6 l6 prime-content">
-          <img
-            class="circle"
-            src="https://scontent.fgig4-1.fna.fbcdn.net/v/t1.0-9/11403337_1143429715674114_1402528155947832097_n.jpg?_nc_cat=100&_nc_ht=scontent.fgig4-1.fna&oh=0e7ce8879836b88bcc4a68f680f42040&oe=5CD47AA3"
-          />
-        </div>
-        <div id="quote" class="col s12 m6 l6 prime-content">
-          <div class="blockquote">
-            <h5 class="bold">Proverbs 3:5-6</h5>
-            <p class="">
-              5. Trust in the Lord with all your heart and lean not on your own
-              understanding;
-            </p>
-            <p class="">
-              6. in all your ways submit to him, and he will make your paths
-              straight.
-            </p>
+        <div id="home" style="display:block">
+          <div id="photo" class="col s12 m6 l6 prime-content">
+            <img
+              class="circle"
+              src="https://scontent.fgig4-1.fna.fbcdn.net/v/t1.0-9/11403337_1143429715674114_1402528155947832097_n.jpg?_nc_cat=100&_nc_ht=scontent.fgig4-1.fna&oh=0e7ce8879836b88bcc4a68f680f42040&oe=5CD47AA3"
+            />
           </div>
+          <div id="quote" class="col s12 m6 l6 prime-content">
+            <div class="blockquote">
+              <p>
+                Hey, I'm Bernardo! I'm a Brazilian fella, God-fearer, with a
+                curious instinct and passioned about nature and building stuff
+                (well!). Whether it is a coincidence or not, life got in charge
+                to take me to pursue a computer science major in my higher
+                studies. Currenty, I work as a full-stack web developer,
+                spending some time crafting a couple of the most interesting
+                softwares you'd ever think about. Unshakeable, greedy, I dream
+                big and strive for all of them. I might have gotten some
+                interesting (not yet) stuff for ya on the menu on your left hand
+                side. Check it out!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="about" class="col s12 m12 l12" style="display: none">
+          About what?
+        </div>
+        <div id="portfolio" class="col s12 m12 l12" style="display: none">
+          I'll have something for ya here quite soon...
         </div>
       </div>
     </div>
