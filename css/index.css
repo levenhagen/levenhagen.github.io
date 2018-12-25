@@ -1,7 +1,7 @@
 .menu-button {
   position: fixed;
-  top: 3vh;
-  left: 3vh;
+  bottom: 2vh;
+  left: 2vh;
 }
 
 .tap-target {
@@ -31,7 +31,30 @@
   padding-left: 10px;
 }
 
+.title-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prime-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.prime-content img {
+  max-width: 250px;
+}
+
 .blockquote {
   border-left: 5px solid #cdcdd2;
-  margin-top: 20px;
+}
+.blockquote p {
+  margin-left: 15px;
+}
+
+.blockquote h5 {
+  margin-left: 15px;
 }

@@ -1,16 +1,18 @@
 var sidebar_instance = null;
-var navbutton_instance = null;
 
 $(document).ready(function() {
-  $(".tap-target").tapTarget();
+  //initializing
+  //$(".tap-target").tapTarget();
 
+  //pulse each 3s
   var sidenav = document.querySelectorAll(".sidenav");
   sidebar_instance = M.Sidenav.init(sidenav, []);
-
   setInterval(showPulse, 6000);
-  //window.setTimeout(openTapTarget, 13500);
-  //window.setTimeout(closeTapTarget, 21000);
+
+  $("#quote").height($("#photo").height());
 });
+
+//-==============- CUSTOM FUNCTIONS -==============-
 
 function showPulse() {
   $(".nav-button").addClass("pulse");
